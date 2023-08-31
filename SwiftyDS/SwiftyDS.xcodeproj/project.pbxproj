@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		36F975482A9E61080018E1F9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F975472A9E61080018E1F9 /* main.swift */; };
 		36F975542A9E61880018E1F9 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F975532A9E61880018E1F9 /* LinearSearch.swift */; };
+		36F975592A9E6C990018E1F9 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F975582A9E6C990018E1F9 /* BinarySearch.swift */; };
+		36F9755B2A9EC9C40018E1F9 /* JumpSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F9755A2A9EC9C40018E1F9 /* JumpSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		36F975442A9E61080018E1F9 /* SwiftyDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftyDS; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F975472A9E61080018E1F9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		36F975532A9E61880018E1F9 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		36F975582A9E6C990018E1F9 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		36F9755A2A9EC9C40018E1F9 /* JumpSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				36F975532A9E61880018E1F9 /* LinearSearch.swift */,
+				36F975582A9E6C990018E1F9 /* BinarySearch.swift */,
+				36F9755A2A9EC9C40018E1F9 /* JumpSearch.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -156,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F975542A9E61880018E1F9 /* LinearSearch.swift in Sources */,
+				36F9755B2A9EC9C40018E1F9 /* JumpSearch.swift in Sources */,
 				36F975482A9E61080018E1F9 /* main.swift in Sources */,
+				36F975592A9E6C990018E1F9 /* BinarySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
